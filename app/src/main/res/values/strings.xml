@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">wordle_android</string>
+    <string name="titulo">Wordle</string>
 </resources>
