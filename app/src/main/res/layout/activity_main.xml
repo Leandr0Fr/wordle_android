@@ -34,6 +34,7 @@
         android:layout_marginEnd="10dp"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
@@ -47,6 +48,7 @@
         android:layout_marginEnd="10dp"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla2"
         app:layout_constraintStart_toEndOf="@+id/casilla0"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
@@ -60,6 +62,7 @@
         android:layout_marginEnd="10dp"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla3"
         app:layout_constraintStart_toEndOf="@+id/casilla1"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
@@ -73,6 +76,7 @@
         android:layout_marginEnd="10dp"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla4"
         app:layout_constraintStart_toEndOf="@+id/casilla2"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
@@ -86,6 +90,7 @@
         android:layout_marginEnd="20dp"
         android:textAlignment="center"
         android:textSize="30sp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/casilla3"
         app:layout_constraintTop_toBottomOf="@+id/titulo" />
@@ -97,6 +102,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/casilla0" />
@@ -108,6 +115,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla7"
         app:layout_constraintStart_toEndOf="@+id/casilla5"
         app:layout_constraintTop_toBottomOf="@+id/casilla1" />
@@ -119,6 +128,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla8"
         app:layout_constraintStart_toEndOf="@+id/casilla6"
         app:layout_constraintTop_toBottomOf="@+id/casilla2" />
@@ -130,6 +140,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla9"
         app:layout_constraintStart_toEndOf="@+id/casilla7"
         app:layout_constraintTop_toBottomOf="@+id/casilla3" />
@@ -141,6 +152,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/casilla8"
         app:layout_constraintTop_toBottomOf="@+id/casilla4" />
@@ -152,6 +164,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/casilla5" />
@@ -163,6 +176,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla12"
         app:layout_constraintStart_toEndOf="@+id/casilla10"
         app:layout_constraintTop_toBottomOf="@+id/casilla6" />
@@ -174,6 +189,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla13"
         app:layout_constraintStart_toEndOf="@+id/casilla11"
         app:layout_constraintTop_toBottomOf="@+id/casilla7" />
@@ -185,6 +202,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla14"
         app:layout_constraintStart_toEndOf="@+id/casilla12"
         app:layout_constraintTop_toBottomOf="@+id/casilla8" />
@@ -196,7 +215,9 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
+        android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/style_edges"
         app:layout_constraintStart_toEndOf="@+id/casilla13"
         app:layout_constraintTop_toBottomOf="@+id/casilla9" />
 
@@ -207,6 +228,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/casilla10" />
@@ -218,6 +241,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla17"
         app:layout_constraintStart_toEndOf="@+id/casilla15"
         app:layout_constraintTop_toBottomOf="@+id/casilla11" />
@@ -229,6 +254,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla18"
         app:layout_constraintStart_toEndOf="@+id/casilla16"
         app:layout_constraintTop_toBottomOf="@+id/casilla12" />
@@ -240,6 +267,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla19"
         app:layout_constraintStart_toEndOf="@+id/casilla17"
         app:layout_constraintTop_toBottomOf="@+id/casilla13" />
@@ -251,6 +280,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/casilla18"
         app:layout_constraintTop_toBottomOf="@+id/casilla14" />
@@ -262,6 +293,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla21"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -274,6 +307,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla22"
         app:layout_constraintStart_toEndOf="@+id/casilla20"
         app:layout_constraintTop_toBottomOf="@+id/casilla16" />
@@ -285,6 +320,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla23"
         app:layout_constraintStart_toEndOf="@+id/casilla21"
         app:layout_constraintTop_toBottomOf="@+id/casilla17" />
@@ -296,6 +333,8 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toStartOf="@+id/casilla24"
         app:layout_constraintStart_toEndOf="@+id/casilla22"
         app:layout_constraintTop_toBottomOf="@+id/casilla18" />
@@ -307,8 +346,11 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/style_edges"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/casilla23"
         app:layout_constraintTop_toBottomOf="@+id/casilla19" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
